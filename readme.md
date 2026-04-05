@@ -1,11 +1,11 @@
-# 🤖 AI Chat Application
+#  AI Chat Application
 
 A simple full-stack AI-powered chat application built using **FastAPI**, **MongoDB Atlas**, and a **JavaScript frontend**.
 The app allows users to enter a username, chat with an AI model, and store conversation history in MongoDB.
 
 ---
 
-# 📌 Features
+#  Features
 
 * Simple **username-based login**
 * Chat with AI model
@@ -17,7 +17,7 @@ The app allows users to enter a username, chat with an AI model, and store conve
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 **Backend**
 
@@ -40,7 +40,7 @@ The app allows users to enter a username, chat with an AI model, and store conve
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 ai-chat-app/
@@ -72,7 +72,7 @@ ai-chat-app/
 
 ---
 
-# ⚙️ Prerequisites
+#  Prerequisites
 
 Before running this project, make sure you have:
 
@@ -84,7 +84,7 @@ Before running this project, make sure you have:
 
 ---
 
-# 🚀 Setup Instructions
+#  Setup Instructions
 
 Follow these steps to run the project on your system.
 
@@ -199,7 +199,7 @@ Login Screen → Enter Username → Start Chat
 
 ---
 
-# 🌐 API Endpoints
+#  API Endpoints
 
 ## POST /chat
 
@@ -267,7 +267,7 @@ And document visible in MongoDB Atlas.
 
 ---
 
-# 🖼️ How the Application Works
+#  How the Application Works
 
 1. User enters username
 2. Chat screen opens
@@ -278,7 +278,7 @@ And document visible in MongoDB Atlas.
 
 ---
 
-# 🔐 Notes
+#  Notes
 
 * This project uses **basic username login only**
 * No password authentication implemented
@@ -299,7 +299,7 @@ Possible upgrades:
 
 ---
 
-# 🐞 Troubleshooting
+#  Troubleshooting
 
 ## Backend not starting
 
