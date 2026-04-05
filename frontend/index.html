@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Chat App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LOGIN SCREEN -->
+
+<div id="login-screen">
+
+    <div>
+
+        <h2>AI Chat Login</h2>
+
+        <input
+            type="text"
+            id="username"
+            placeholder="Enter username"
+        >
+
+        <button onclick="login()">
+            Start Chat
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- CHAT SCREEN -->
+
+<div id="chat-screen" style="display:none;">
+
+    <div class="chat-container">
+
+        <div class="chat-header">
+            AI Chat 🤖
+        </div>
+
+        <div id="chat-box"></div>
+
+        <div id="loading" class="loading">
+            AI is typing...
+        </div>
+
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Type message..."
+            >
+
+            <button onclick="sendMessage()">
+                Send
+            </button>
+
+            <button onclick="clearHistory()" class="clear-btn">
+                Clear
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
